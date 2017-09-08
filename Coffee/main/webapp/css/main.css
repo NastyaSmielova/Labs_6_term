@@ -1,0 +1,55 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 24, 2017, 12:35:33 AM
+    Author     : pc
+*/
+
+    .block1 { 
+       background: hsl(0, 100%, 30%);;
+       padding: 25px;
+       padding-right: 20px; 
+       border: solid 1px black; 
+       float: left;
+       width: 150px; 
+       margin-top : 15px;
+
+      }
+   .block2 { 
+        background: hsl(0, 100%, 50%); 
+        padding: 25px; 
+        border: solid 1px black; 
+        float: left; 
+        width: 150px; 
+        position: relative; 
+        left: 200px; 
+        margin-top : 15px;
+
+   }
+   .block3 { 
+        background:hsl(0, 100%, 90%);
+        padding: 25px; 
+        border: solid 1px black; 
+        float: left; 
+        position: relative; 
+        left: 400px; 
+        width: 150px; 
+        margin-top : 15px;
+
+   }
+   body {
+        background: -o-linear-gradient(right, rgba(255,0,0,0), rgba(255,0,0,1)); /* For Opera 11.1 to 12.0 */
+        background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)); /* Standard syntax (must be last) */
+        font-family: Arial, Helvetica, sans-serif; 
+        text-align: center;
+        font-weight : bold;
+    }
+    h1{
+        color : white;
+        text-decoration	: blink;
+        text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+
+    }

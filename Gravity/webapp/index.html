@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gravity</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body onload="InitDemo();">
+	            <button onclick="send()">Send</button>
+
+	<form name="initForm">
+
+            Speed: <input type="text" id="speed" value="13">
+            Angle: <input type="text" id="angle" value="45">
+        </form>
+     <canvas id="game-surface" width="600" height="600" >
+			Your browser does not support HTML5
+      </canvas>
+		<br />
+      <script type="text/javascript" src="websocket.js"></script>
+              <script type="text/javascript" src="app.js"></script>
+     <script type="text/javascript" src="gravity.js"></script>
+
+    </body>
+</html>
